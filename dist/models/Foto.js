@@ -26,7 +26,7 @@ var _appConfig = require('../config/appConfig'); var _appConfig2 = _interopRequi
       url: {
         type: _sequelize2.default.VIRTUAL,
         get() {
-          return `${_appConfig2.default.url}/images/${this.getDataValue('filename')}`
+          return `${'http://192.168.1.6:3001'}/images/${this.getDataValue('filename')}`
         }
       },
     }, {
