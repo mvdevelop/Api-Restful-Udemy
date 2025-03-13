@@ -1,0 +1,16 @@
+
+/*
+(API content order)
+(1) imports
+(3) db connection
+
+(5 inside controller
+// store/create - Cria um novo usuário (POST)
+// index - Lista todos os usuários (GET)
+// show - Mostra um usuário (GET)
+// update - edita/atualiza um usuário (PUT or PATCH)
+// delete - Apaga um usuário ...) (DELETE)
+
+(4) routes
+(2) port running
+*/
