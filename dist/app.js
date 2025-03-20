@@ -17,7 +17,8 @@ var _alunoRoutes = require('./routes/alunoRoutes'); var _alunoRoutes2 = _interop
 var _fotoRoutes = require('./routes/fotoRoutes'); var _fotoRoutes2 = _interopRequireDefault(_fotoRoutes);
 
 const whiteList = [
-  'http://react02.192.168.1.5',
+  'http://react02.192.168.1.6',
+  'http://localhost:3000',
   'http://localhost:3000',
 ];
 

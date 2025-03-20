@@ -17,7 +17,8 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'http://react02.192.168.1.5',
+  'http://react02.192.168.1.6',
+  'http://localhost:3000',
   'http://localhost:3000',
 ];
 
