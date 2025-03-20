@@ -19,7 +19,8 @@ import fotoRoutes from './routes/fotoRoutes';
 const whiteList = [
   'http://react02.192.168.1.6',
   'http://localhost:3000',
-  'http://localhost:3000',
+  'http://localhost:3001',
+  'http://192.168.1.6:3001',
 ];
 
 const corsOptions = {
