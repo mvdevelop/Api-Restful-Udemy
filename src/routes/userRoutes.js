@@ -12,7 +12,7 @@ const router = new Router();
 
 // router.post('/', userController.store); // open
 
-router.post('/', loginRequired, userController.store);
+router.post('/', userController.store);
 router.put('/', loginRequired, userController.update);
 router.delete('/', loginRequired, userController.delete);
 
